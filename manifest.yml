@@ -1,0 +1,10 @@
+applications:
+- path: JavaCloudantApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: WNBTSTest0000001
+  host: WNBTSTest0000001
+  disk_quota: 1024M
+  services:
+  - WNBTSTest0000001-cloudantNoSQLDB
